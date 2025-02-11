@@ -1,0 +1,29 @@
+{
+    "type":"origins:active_self",
+    "name":"Terrific Tongue",
+    "description":"You can use your tongue to lick a player or item, pulling them to you. ",
+    "cooldown":10,
+    "hud_render":{
+        "sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index":4
+    },
+    "entity_action":{
+        "type":"origins:raycast", "command_along_ray": "particle dust 0.45490196078 0.27843137254 0.52156862745 1 ~ ~ ~ 0 0 0 0 0 normal",
+        "distance":10,
+        "bientity_action":{
+            "type":"origins:and",
+            "actions":[
+                {
+                    "type": "origins:add_velocity",
+                    "y":0,
+                    "z": -2
+				}
+
+            ]
+        }
+    }
+    
+}
+		
+		
+			

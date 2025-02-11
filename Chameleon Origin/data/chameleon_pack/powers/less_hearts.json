@@ -1,0 +1,10 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "Max health decrease",
+        "attribute": "minecraft:generic.max_health",
+        "value": -10,
+        "operation": "addition"
+    }, 	"name": "Less Hearts",
+	"description": "As a smaller reptile, you have 5 less hearts then a regular player."
+}

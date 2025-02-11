@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"chameleon_pack:restrict_armor",
+		"chameleon_pack:camouflage",
+		"origins:climbing",
+		"chameleon_pack:less_hearts",
+		"origins:carnivore",
+		"chameleon_pack:terrific_tongue",
+		"chameleon_pack:small_size"
+
+	],
+	"icon": "minecraft:tall_grass",
+	"order": 10,
+	"impact": 1,
+	"name": "Chameleon",
+	"description": "A faithful recreation of Bekyamon's origin from the Origins SMP. Enjoy."
+}

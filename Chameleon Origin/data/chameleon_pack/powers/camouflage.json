@@ -1,0 +1,10 @@
+{
+	"name": "Camoflauge",
+	"description": "You turn invisible when crouching",
+	"type": "origins:invisibility",
+	"render_armor": false,
+	"condition": {
+		"type": "origins:sneaking",
+		"inverted": false
+	}
+}
